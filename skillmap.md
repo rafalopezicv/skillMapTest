@@ -122,3 +122,18 @@
 * url: https://github.com/rafalopezicv/skillMapTest/tutorials/platformer/activity5
 * imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/platformer/activity5.png
 * tags: intermediate, AI, physics
+
+
+## Llistes
+* name: Aprendre a treballar amb llistes
+* description: Aquest nivells t'ensenyaran a treballar amb llistes
+* completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/learn-to-make-a-platformer.pdf
+
+### llistes-activity1
+
+* name: Ejercicio listas aleatorias
+* type: tutorial
+* description: Apren como escollir elements aleatoris de dues llistes
+* url: https://github.com/rafalopezicv/skillMapTest/tutorials/llistes/activity1
+* imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/platformer/activity1.png
+* tags: easy
