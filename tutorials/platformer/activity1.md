@@ -12,21 +12,6 @@ def on_update():
     game.splash("Número: " + str(numero_aleatorio))
 
 
-def on_update():
-```
-
-```template
-nombres =
-numeros = 
-
-def on_update():
-    nombre_aleatorio = 
-    numero_aleatorio = 
-
-    game.splash("Nombre: " + nombre_aleatorio)
-    game.splash("Número: " + str(numero_aleatorio))
-
-
 game.on_update(on_update)
 ```
 
