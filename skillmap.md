@@ -131,9 +131,9 @@
 
 ### llistes-activity1
 
-* name: Ejercicio listas aleatorias
+* name: Exercici llistes aleatories
 * type: tutorial
-* description: Apren como escollir elements aleatoris de dues llistes
+* description: Aprén como escollir elements aleatoris de dues llistes
 * url: https://github.com/rafalopezicv/skillMapTest/tutorials/llistes/activity1
 * imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/platformer/activity1.png
 * tags: easy
