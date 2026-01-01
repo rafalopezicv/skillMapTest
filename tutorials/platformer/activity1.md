@@ -1,76 +1,59 @@
-# Simple Platformer
+# Ejercicio listas aleatorias
 
 ```python-template
-for i in range(100):
-    mobs.spawn(CHICKEN, pos(0, 10, 0))
-```
+nombres =
+numeros = 
 
-```python
-for i in range(100):
-    mobs.spawn(CHICKEN, pos(0, 10, 0))
+def on_update():
+    nombre_aleatorio = 
+    numero_aleatorio = 
+
+    game.splash("Nombre: " + nombre_aleatorio)
+    game.splash("Número: " + str(numero_aleatorio))
+
+
+def on_update():
 ```
 
 ```template
-scene.setBackgroundColor(11)
-tiles.setTilemap(tilemap`level`)
+nombres =
+numeros = 
+
+def on_update():
+    nombre_aleatorio = 
+    numero_aleatorio = 
+
+    game.splash("Nombre: " + nombre_aleatorio)
+    game.splash("Número: " + str(numero_aleatorio))
+
+
+def on_update():
 ```
 
-## Welcome @unplugged
+## Hola! @unplugged
 
-Now let's take a look at the [__*sidescrolling*__](#scrolld "games that are viewed from the side, with most of the action happening horizontally") 
-[__*platformer*__](#plat "games that rely on jump and run as their main mechanic").  
+Ara anem a fer un exercicio on el que generarem dues llistes, una amb noms i una altre amb edats.
 
-This kind of game peeks in on the action from the side, using "jump" and "run"
-as the main mechanic.  
-
-By the time you finish this set of tutorials, you should know all you need 
-to make a fun and engaging arcade game worth sharing.
-
-![Our first platformer](/static/skillmaps/platformer/platformer1.gif "Look what we're about to learn today!")
+Un cop tinguem les llistes agafarem un dels valors dels noms i de les edats i les mostrarem per pantalla.
 
 
-## Create the player
+## Crear les llistes
 
-The first thing any good platformer needs is a main character. 🐒
+El primer que necesitarem per aquesta activitat seràn les llistes que mostrarem per pantalla.
 
-In Arcade, our characters are [__*sprites*__](#sprote "2-D images that move on the screen").  
-We'll want to create our main sprite and get it moving before we do anything else. 
 <hr>
 
-🔲 From the ``||sprites:Sprites||`` category, drag the ``||variables:set [mySprite] to sprite [ ] of kind [Player]||`` 
-block to the end of the ``||loops:on start||`` container.
+🔲 En una de les llistes guardarem noms, pots utilitzar els noms dels teus companys per utilitzar a la llista de noms, fes la que tinguí al menys 5 noms diferents
 
-🔲 Click on the grey box in the middle of your
- ``||variables:set [mySprite] to sprite [ ] of kind [Player]||`` block
- to open the sprite editor.  From there, you can switch over to "Gallery"
- and choose a pre-drawn character.
+🔲 Per la llista d'edats 
+
 <hr/>
->>*Tip: Don't like any of the predrawn characters? Stay in the "Editor"
-and create one of your own*!
+
+>>*Tip: Recorda com es declaren les llistes, ho pots consultar en els apunts del Github del Moodle 😉
 
 
-```blocks
-scene.setBackgroundColor(11)
-tiles.setTilemap(tilemap`level`)
-// @highlight
-let mySprite = sprites.create(img`
-. . . . . f f f f f . . . . . . 
-. . . . f e e e e e f . . . . . 
-. . . f d d d d d e e f . . . . 
-. . f f f d d f f d e f f . . . 
-. c d d e e d d d d e d d f . . 
-. c c d d d d c d d e d f f f . 
-. c d c c c c d d d e d f b d f 
-. . c d d d d d d e e f f d d f 
-. . . c d d d d e e f f e f f f 
-. . . . f f f e e f e e e f . . 
-. . . . f e e e e e e e f f f . 
-. . . f e e e e e e f f f e f . 
-. . f f e e e e f f f f f e f . 
-. f b d f e e f b b f f f e f . 
-. f d d f e e f d d b f f f f . 
-. f f f f f f f f f f f f f . . 
-    `, SpriteKind.Player)
+```python
+lista = ["Hola"]
 ```
 
 ## Move the player
@@ -203,8 +186,8 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Done
+## Fet
 
-🔥 **That's it! We've created a simple platformer game.** 🔥  
+🔥 **Ja està, així es com agafem un valor aleatori d'una llista** 🔥  
 
-In the next lesson we'll learn how to add obstacles and goals.
+En la següent lleso farem una altre cosa
