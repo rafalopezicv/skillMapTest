@@ -1,4 +1,4 @@
-# Ejercicio listas aleatorias
+# Exercici llistes aleatories
 
 ```python-template
 nombres =
