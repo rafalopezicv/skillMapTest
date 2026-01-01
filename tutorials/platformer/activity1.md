@@ -15,6 +15,21 @@ def on_update():
 game.on_update(on_update)
 ```
 
+```template
+nombres =
+numeros = 
+
+def on_update():
+    nombre_aleatorio = 
+    numero_aleatorio = 
+
+    game.splash("Nombre: " + nombre_aleatorio)
+    game.splash("Número: " + str(numero_aleatorio))
+
+
+game.on_update(on_update)
+```
+
 ## Hola! @unplugged
 
 Ara farem un exercici on el que generarem dues llistes, una amb noms i un altre amb edats.
