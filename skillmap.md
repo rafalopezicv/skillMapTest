@@ -76,9 +76,9 @@
 
 ### platformer-activity1
 
-* name: Simple Platformer
+* name: Ejercicio listas aleatorias
 * type: tutorial
-* description: Learn how to make a player character that can jump and move around a tilemap.
+* description: Aprendre como escoger elementos aleatorios de dos listas
 * url: https://github.com/rafalopezicv/skillMapTest/tutorials/platformer/activity1
 * imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/platformer/activity1.png
 * tags: easy
