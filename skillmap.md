@@ -123,7 +123,6 @@
 * imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/platformer/activity5.png
 * tags: intermediate, AI, physics
 
-
 ## Llistes
 * name: Aprendre a treballar amb llistes
 * description: Aquest nivells t'ensenyaran a treballar amb llistes
