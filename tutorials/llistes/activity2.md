@@ -1,6 +1,7 @@
 # Exercici llistes aleatories
 
 ```python-template
+myMenu = miniMenu.create_menu()
 nombres =
 numeros = 
 
@@ -16,6 +17,7 @@ game.on_update(on_update)
 ```
 
 ```template
+myMenu = miniMenu.create_menu()
 nombres =
 numeros = 
 
