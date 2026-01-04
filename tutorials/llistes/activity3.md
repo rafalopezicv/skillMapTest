@@ -1,36 +1,41 @@
-# Concatena dues llistes
+# Exercici llistes aleatories
 
 ```python-template
-colours1 = ["red", "green","blue"]
-colours2 = ["black", "white"]
+nombres =
+numeros = 
 
-menuArray: List[miniMenu.MenuItem] = []
-
-# Omple la llista menuArray, amb el contingut d'una altre llista, en aquest cas la llista: exemple
-for i in range(len(exemple)):
-    menuArray.push(miniMenu.create_menu_item(exemple[i]))
-
-# Mostra per pantalla el menu amb el contingut de la llista menuArray
 def on_update():
-    my_menu = miniMenu.create_menu_from_array(menuArray)
+    nombre_aleatorio = 
+    numero_aleatorio = 
+
+    game.splash("Nombre: " + nombre_aleatorio)
+    game.splash("Número: " + str(numero_aleatorio))
+
+
 game.on_update(on_update)
 ```
 
 ```template
-colours1 = ["red", "green","blue"]
-colours2 = ["black", "white"]
+nombres =
+numeros = 
 
-menuArray: List[miniMenu.MenuItem] = []
-
-# Omple la llista menuArray, amb el contingut d'una altre llista, en aquest cas la llista: exemple
-for i in range(len(exemple)):
-    menuArray.push(miniMenu.create_menu_item(exemple[i]))
-
-# Mostra per pantalla el menu amb el contingut de la llista menuArray
 def on_update():
-    my_menu = miniMenu.create_menu_from_array(menuArray)
+    nombre_aleatorio = 
+    numero_aleatorio = 
+
+    game.splash("Nombre: " + nombre_aleatorio)
+    game.splash("Número: " + str(numero_aleatorio))
+
+
 game.on_update(on_update)
 ```
+
+## Hola! @unplugged
+
+Ara farem un exercici on el que generarem dues llistes, una amb noms i un altre amb edats.
+
+Un cop tinguem les llistes agafarem un dels valors dels noms i de les edats i les mostrarem per pantalla.
+
 
 ## Crear les llistes
 
@@ -73,8 +78,3 @@ valor = lista[randint(0, len(lista))]
 🔥 **Ja està, així és com agafem un valor aleatori d'una llista** 🔥  
 
 En la següent lliçó farem un altre cosa
-
-
-```package
-arcade-mini-menu=github:riknoll/arcade-mini-menu
-```
