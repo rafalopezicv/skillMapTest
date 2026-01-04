@@ -136,3 +136,13 @@
 * url: https://github.com/rafalopezicv/skillMapTest/tutorials/llistes/activity1
 * imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/platformer/activity1.png
 * tags: easy
+* next: llistes-activity2
+
+### llistes-activity2
+
+* name: Mini-Menu
+* type: tutorial
+* description: Aprén como escollir elements aleatoris de dues llistes
+* url: https://github.com/rafalopezicv/skillMapTest/tutorials/llistes/activity2
+* imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/platformer/activity1.png
+* tags: easy
