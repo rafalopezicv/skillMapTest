@@ -1,32 +1,30 @@
 # Exercici llistes aleatories
 
 ```python-template
-myMenu = miniMenu.create_menu()
-nombres =
-numeros = 
+nombres = [
+    miniMenu.create_menu_item("Juan"),
+    miniMenu.create_menu_item("Ana"),
+    miniMenu.create_menu_item("Pedro"),
+    miniMenu.create_menu_item("Maria")
+    ]
 
 def on_update():
-    nombre_aleatorio = 
-    numero_aleatorio = 
-
-    game.splash("Nombre: " + nombre_aleatorio)
-    game.splash("Número: " + str(numero_aleatorio))
+    my_menu = miniMenu.create_menu_from_array(nombres)
 
 
 game.on_update(on_update)
 ```
 
 ```template
-myMenu = miniMenu.create_menu()
-nombres =
-numeros = 
+nombres = [
+    miniMenu.create_menu_item("Juan"),
+    miniMenu.create_menu_item("Ana"),
+    miniMenu.create_menu_item("Pedro"),
+    miniMenu.create_menu_item("Maria")
+    ]
 
 def on_update():
-    nombre_aleatorio = 
-    numero_aleatorio = 
-
-    game.splash("Nombre: " + nombre_aleatorio)
-    game.splash("Número: " + str(numero_aleatorio))
+    my_menu = miniMenu.create_menu_from_array(nombres)
 
 
 game.on_update(on_update)
