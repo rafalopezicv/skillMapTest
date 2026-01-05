@@ -33,6 +33,6 @@
 * name: Exercici llistes aleatories
 * type: tutorial
 * description: Aprén com escollir elements aleatoris de dues llistes
-* url: https://github.com/rafalopezicv/skillMapTest/tutorials/llistes/activity2
+* url: https://github.com/rafalopezicv/skillMapTest/tutorials/llistes/activity3
 * imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/platformer/activity1.png
 * tags: easy
