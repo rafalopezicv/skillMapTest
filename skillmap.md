@@ -1,6 +1,6 @@
 # sample
-* name: Game Maker Guide
-* description: Level up your game making skills by completing the tutorials in this guide.
+* name: Guía bàsica de com treballar amb llistes
+* description: Aprén a treballar amb llistes seguint aquests exercicis de llistes.
 * layout: python
 
 ## Llistes
