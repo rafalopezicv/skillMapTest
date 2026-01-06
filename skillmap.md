@@ -10,29 +10,66 @@
 
 ### llistes-activity1
 
-* name: Mostrar un element d'una llista
+* name: Crear una llista i mostrarla per pantalla
 * type: tutorial
-* description: Aprén a mostrar per pantalla un element d'una llista
+* allowcodecarryover: false
+* description: Practica la creació d'una llista i mostra-la per pantalla.
 * url: https://github.com/rafalopezicv/skillMapTest/tutorials/llistes/activity1
-* imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/platformer/activity1.png
+* imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/llistes/act1.png
 * tags: easy
 * next: llistes-activity2
 
 ### llistes-activity2
 
-* name: Merge llistes
+* name: Mostrar un element d'una llista
 * type: tutorial
-* description: Aprén com unir dues llistes
+* allowcodecarryover: false
+* description: Accedeix als elements d'una llista mitjançant els seus índexs
 * url: https://github.com/rafalopezicv/skillMapTest/tutorials/llistes/activity2
-* imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/platformer/activity1.png
+* imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/llistes/act2.png
 * tags: easy
 * next: llistes-activity3
 
 ### llistes-activity3
 
-* name: Exercici llistes aleatories
+* name: Afegeix un element a una llista
 * type: tutorial
-* description: Aprén com escollir elements aleatoris de dues llistes
+* allowcodecarryover: false
+* description: Aprén a afegir elements a una llista ja existent
 * url: https://github.com/rafalopezicv/skillMapTest/tutorials/llistes/activity3
-* imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/platformer/activity1.png
+* imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/llistes/act3.png
 * tags: easy
+* next: llistes-activity4
+
+
+### llistes-activity4
+
+* name: Elimina un element d'una llista
+* type: tutorial
+* allowcodecarryover: false
+* description: Aprén a eliminar elements a una llista ja existent
+* url: https://github.com/rafalopezicv/skillMapTest/tutorials/llistes/activity4
+* imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/llistes/act4.png
+* tags: easy
+* next: llistes-activity5
+
+### llistes-activity5
+
+* name: Concatena dues llistes
+* type: tutorial
+* allowcodecarryover: false
+* description: Aprén com unir dues llistes ja existents en una llista nova
+* url: https://github.com/rafalopezicv/skillMapTest/tutorials/llistes/activity5
+* imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/llistes/act5.png
+* tags: easy
+* next: llistes-activity6
+
+### llistes-activity6
+
+* name: Llistes aleatòries
+* type: tutorial
+* allowcodecarryover: false
+* description: Aprén com escollir elements aleatòris de dues llistes
+* url: https://github.com/rafalopezicv/skillMapTest/tutorials/llistes/activity6
+* imageUrl: https://raw.githubusercontent.com/rafalopezicv/skillMapTest/main/img/llistes/act6.png
+* tags: medium

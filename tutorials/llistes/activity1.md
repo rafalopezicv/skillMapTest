@@ -1,38 +1,28 @@
-# Mostrar un element d'una llista
+# Crear una llista i mostrarla per pantalla
 
 ```python-template
-languages = ["Python", "C", "C++", "Java", "Perl"]
 
-def on_update():
-    imprimir =
-
-    game.splash(imprimir)
-
-
-game.on_update(on_update)
+# En aquest entorn per mostrar un valor per pantalla s'utilitza el splash en comptes del print
+game.splash(imprimir)
 ```
 
 ```template
-languages = ["Python", "C", "C++", "Java", "Perl"]
 
-# Mostra per pantalla el contingut de la variable imprimir
-def on_update():
-    imprimir =
-
-    game.splash(imprimir)
-game.on_update(on_update)
+# En aquest entorn per mostrar un valor per pantalla s'utilitza el splash en comptes del print
+game.splash(imprimir)
 ```
+## Objectiu @unplugged
+
+L'objectiu d'aquest exercici és practicar la creació d'una llista i mostra-la per pantalla.
 
 ## Crear les llistes
 
-Mostra per pantalla el tercer element de la llista (C++)
+Crea una llista que contingui diferents llenguatges de programació, la llista ha de contenir els següents elements: **Python, C, C++, Java, Perl**
+
+>>*Tip: Recorda que una llista en Python es defineix amb corxets [ ]. I per fer el bucle de mostrar per pantalla el més senzill serà utilitzar la funció len()*
+
+```python
+len(llista)
+```
 
 <hr>
-
-🔲 En una de les llistes guardarem noms, pots utilitzar els noms dels teus companys per fer servir a la llista de noms, fes la que tinguí almenys 5 noms diferents
-
-🔲 Per la llista d'edats posa numeros diferents que puguin ser edats. No fa falta que hi hagi la mateixa quantitat d'edats que de noms!
-
-<hr/>
-
->>*Tip: Per fer-ho declara'l en la variable imprimir o mostra'l directament en la funció game.splash*
