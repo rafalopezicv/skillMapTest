@@ -1,4 +1,4 @@
-# Exercici llistes aleatories
+# Exercici llistes aleatòries
 
 ```python-template
 noms =
